@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>通信行程卡 - 纪念版</title>
-    <link rel="shortcut icon" href="./assets/image/arrow-compressed.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./arrow-compressed.png" type="image/x-icon">
     <style>
         .animate {
             animation-name: arrowScale;
@@ -206,7 +206,7 @@
                     </p>
                 </div>
                 <div style="display: grid; place-items: center;">
-                    <img src="./assets/image/arrow-compressed.png" style="width: 45%;" class="animate" />
+                    <img src="./arrow-compressed.png" style="width: 45%;" class="animate" />
                 </div>
                 <div>
                     <div
@@ -279,15 +279,7 @@
             <p :style="showSetting ? {} : { color: '#cfeedf' }">
                 * 本页面仅作纪念，无实际意义，不得用于防疫等相关场景
             </p>
-            <p v-if="showSetting">
-                本页面由 程序员小墨 制作并开源<br>
-                欢迎关注：
-                <a target="_blank" href="https://space.bilibili.com/457109942">B站</a>
-                <a @click="alert('微信搜索 [程序员小墨] 公众号并关注即可，感谢支持！')">公众号</a>
-                开源地址：
-                <a target="_blank" href="https://github.com/coder-xiaomo/travel-card">GitHub</a>
-                <a target="_blank" href="https://gitee.com/coder-xiaomo/travel-card">Gitee</a>
-            </p>
+
         </div>
     </div>
     <script>
